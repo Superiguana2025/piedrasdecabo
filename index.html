@@ -61,7 +61,8 @@
       margin-bottom: 1rem;
     }
     .coords-box strong {
-      font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
     }
     a.map-link {
       display: inline-block;
@@ -74,7 +75,8 @@
       text-decoration: underline;
     }
     .footer-note {
-      margin-top: 2rem;
+      max-width: 850px;
+      margin: 0 auto 2.5rem;
       font-size: 0.75rem;
       color: #7a6b59;
       text-align: center;
@@ -84,52 +86,72 @@
 <body>
   <header>
     <h1>Nomad Stone · Cabo Collection</h1>
-</header>
+  </header>
 
-  <main class="wrap">
-    <span class="tag">Presa El Carrizo · pieza de prueba</span>
+  <main>
 
-    <div class="photo">
-      <!-- CAMBIA ESTE SRC POR EL LINK DIRECTO DE TU FOTO EN DRIVE (el que ya hiciste público) -->
-      <img src="Presa El Carrizo.jpg" alt="Presa El Carrizo" />
+    <!-- Piedra 1: Presa El Carrizo -->
+    <div class="wrap">
+      <span class="tag">Presa El Carrizo · pieza de prueba</span>
 
-    <h2 style="margin-top:1rem;">Presa El Carrizo</h2>
-    <p>
-      Piedra encontrada y registrada por Nomada Stone. Cada pieza incluye la ubicación real donde fue hallada
-      para que pueda volver a visitarse o verificarse.
-    </p>
+      <div class="photo">
+        <img src="Presa El Carrizo.jpg" alt="Presa El Carrizo" />
+      </div>
 
-    <div class="coords-box">
-      <div><strong>Coordenadas:</strong> 32.477621, -116.689412</div>
-      <a class="map-link" href="https://www.google.com/maps?q=32.477621,-116.689412" target="_blank" rel="noopener">
-        ➜ Ver en Google Maps
-      </a>
-    </div>
+      <h2 style="margin-top:1rem;">Presa El Carrizo</h2>
+      <p>
+        Piedra encontrada y registrada por Nomada Stone. Cada pieza incluye la ubicación real donde fue hallada
+        para que pueda volver a visitarse o verificarse.
+      </p>
 
-    <p style="margin-top:1rem;">
-      Nota: si ves esta página es porque tienes una de las piezas físicas. Cada una es distinta, con foto y
-      ubicación reales. No hay dos iguales.
-    </p>
-
-      <div class="wrap">
-    <img src="KM 38.jpg" alt="El Morro, Rosarito BC" class="foto" />
-    <h2>Nombre del lugar</h2>
-    <p>Piedra encontrada y registrada por Nomada Stone. Cada pieza incluye la ubicación real donde fue hallada para que pueda volver a visitarse o verificarse.</p>
-
-    <div class="coord-box">
-        <strong>Coordenadas:</strong> LATITUD, LONGITUD
-        <br><br>
-        <a href="https://www.google.com/maps?q=LATITUD,LONGITUD" target="_blank">
-            ✦ Ver en Google Maps
+      <div class="coords-box">
+        <div><strong>Coordenadas:</strong> 32.477621, -116.689412</div>
+        <a class="map-link"
+           href="https://www.google.com/maps?q=32.477621,-116.689412"
+           target="_blank" rel="noopener">
+          ➜ Ver en Google Maps
         </a>
+      </div>
+
+      <p style="margin-top:1rem;">
+        Nota: si ves esta página es porque tienes una de las piezas físicas. Cada una es distinta, con foto y
+        ubicación reales. No hay dos iguales.
+      </p>
     </div>
 
-    <p>Nota: si ves esta página es porque tienes una de las piezas físicas. Cada una es distinta, con foto y ubicación real. No hay dos iguales.</p>
-</div>
+    <!-- Piedra 2: El Morro -->
+    <div class="wrap">
+      <span class="tag">El Morro · Rosarito BC</span>
+
+      <div class="photo">
+        <img src="El Morro.jpg" alt="El Morro, Rosarito BC" />
+      </div>
+
+      <h2 style="margin-top:1rem;">El Morro, Rosarito BC</h2>
+      <p>
+        Piedra encontrada y registrada por Nomada Stone. Cada pieza incluye la ubicación real donde fue hallada
+        para que pueda volver a visitarse o verificarse.
+      </p>
+
+      <div class="coords-box">
+        <div><strong>Coordenadas:</strong> 32.261408, -116.990968</div>
+        <a class="map-link"
+           href="https://www.google.com/maps?q=32.261408,-116.990968"
+           target="_blank" rel="noopener">
+          ✦ Ver en Google Maps
+        </a>
+      </div>
+
+      <p style="margin-top:1rem;">
+        Nota: si ves esta página es porque tienes una de las piezas físicas. Cada una es distinta, con foto y
+        ubicación reales. No hay dos iguales.
+      </p>
+    </div>
 
     <div class="footer-note">
       Proyecto artesanal de Cabo San Lucas · hecho a mano 🪨🌵
     </div>
+
   </main>
 </body>
 </html>
